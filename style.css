@@ -246,6 +246,10 @@ header .row {
     justify-content: space-between;
 }
 
+.section__title {
+    text-align: center;
+}
+
 .header__dis {
     width: 40%;
 }
@@ -483,6 +487,11 @@ QUALITY WORK ↓
 
 #quality .section__title {
     line-height: 1.25;
+    text-align: left;
+}
+
+#quality .section__para {
+    text-align: left;
 }
 
 #quality .btn {
@@ -548,13 +557,15 @@ STEPS ↓
 .steps__img--wrapper, .steps__contant {
     width: 50%;
 }
+
+#steps .section__title {
+    text-align: left;
+}
  
 .steps__img--wrapper {
     display: flex;
     position: relative;
 }
-
-
 
 .steps__grid {
     position: absolute;
@@ -630,6 +641,7 @@ VALUES ↓
 
 #values .section__title {
     line-height: 1.25;
+    text-align: left;
 }
 
 #values .section__title {
@@ -711,7 +723,8 @@ PRICING ↓
     align-items: center;
 }
 
-#pricing .section__tag, 
+#pricing
+.section__tag 
 .section__title {
     text-align: center;
 }
@@ -901,14 +914,16 @@ TESTIMONIALS ↓
     width: 50%;
 }
 
-#testimonials .section__tag, 
-.section__title, .section__para {
+#testimonials 
+.section__tag 
+.section__para {
     text-align: left;
 }
 
 #testimonials .section__title {
     margin-bottom: 24px;
     line-height: 1.25;
+    text-align: left;
 }
 
 .testimonials__contant {
@@ -1492,8 +1507,10 @@ MOBILE RESPONSIVENESS ↓
         margin-top: 64px;
     }
 
-    #quality, .section__title, 
-    .section__para, .section__tag {
+    #quality
+    .section__title 
+    .section__para
+    .section__tag {
         text-align: center;
     }
 
@@ -1526,8 +1543,12 @@ MOBILE RESPONSIVENESS ↓
         align-items: center;
     }
 
-    #steps, #values, #pricing 
+     #values, #pricing 
     .section__title {
+        text-align: center;
+    }
+
+    #steps .section__title {
         text-align: center;
     }
 
@@ -1543,9 +1564,11 @@ MOBILE RESPONSIVENESS ↓
         display: flex;
         flex-direction: column;
         align-items: center;
+        margin-top: 64px;
     }
     
-    #values .values__contant, 
+    #values 
+    .values__contant 
     .testimonials__contant {
         margin-top: 64px;
     }
@@ -1555,8 +1578,13 @@ MOBILE RESPONSIVENESS ↓
         max-width: 448px;
     }
 
+    #values .section__title {
+        text-align: center;
+    }
+
     #values, 
-    #pricing, #testimonials
+    #pricing, 
+    #testimonials
      .section__para {
         font-size: 14px;
     }
@@ -1581,11 +1609,18 @@ MOBILE RESPONSIVENESS ↓
         width: 100%;
         max-width: 448px;
         padding-left: 0;
+        margin-top: 64px;
     }
 
-    #testimonials 
-    .section__tag, 
-    .section__title {
+    #testimonials .section__tag {
+        text-align: center;
+    }
+
+    #testimonials .section__title {
+        text-align: center;
+    }
+
+    #testimonials .section__para {
         text-align: center;
     }
 
@@ -1602,7 +1637,7 @@ MOBILE RESPONSIVENESS ↓
     }
 
     .footer__columns {
-   justify-content: flex-start;
+    justify-content: flex-start;
     }
 
     .footer__column {
@@ -1659,7 +1694,11 @@ MOBILE RESPONSIVENESS ↓
         letter-spacing: 0.05em;
     }
 
-    #features, #pricing .section__title {
+    #features .section__title {
+        font-size: 36px;
+    }
+
+    #pricing .section__title {
         font-size: 36px;
     }
 
@@ -1682,9 +1721,23 @@ MOBILE RESPONSIVENESS ↓
         margin-top: 4px;
     }
 
-    #quality, #steps,
-    #values, #testimonials
-     .section__title {
+    .quality__contant {
+        text-align: center;
+    }
+
+    #quality .section__title {
+        text-align: center;
+    }
+
+    #quality .section__para{
+        text-align: center;
+    }
+
+    #quality, 
+    #steps,
+    #values, 
+    #testimonials
+    .section__title {
         font-size: 30px;
     }
 
